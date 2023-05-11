@@ -1,0 +1,35 @@
+/* Base Styles */
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.project{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: all 0.4s ease;
+}
+
+.section{
+  width: 100%;
+  text-align: center;
+}
+/* Header Styles */
+.section h2{
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* Button Styles*/
+.section button{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: grey;
+    padding: 20px;
+    text-transform: uppercase;
+    user-select: none;
+    color: white;
+}
